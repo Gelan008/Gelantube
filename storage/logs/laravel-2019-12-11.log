@@ -1,0 +1,16 @@
+[2019-12-11 19:12:10] local.ERROR: There are no commands defined in the "migate" namespace.
+
+Did you mean this?
+    migrate {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"migate\" namespace.
+
+Did you mean this?
+    migrate at /Applications/MAMP/htdocs/Laravel/Gelantube/vendor/symfony/console/Application.php:598)
+[stacktrace]
+#0 /Applications/MAMP/htdocs/Laravel/Gelantube/vendor/symfony/console/Application.php(651): Symfony\\Component\\Console\\Application->findNamespace('migate')
+#1 /Applications/MAMP/htdocs/Laravel/Gelantube/vendor/symfony/console/Application.php(236): Symfony\\Component\\Console\\Application->find('migate:status')
+#2 /Applications/MAMP/htdocs/Laravel/Gelantube/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Applications/MAMP/htdocs/Laravel/Gelantube/vendor/laravel/framework/src/Illuminate/Console/Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Applications/MAMP/htdocs/Laravel/Gelantube/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /Applications/MAMP/htdocs/Laravel/Gelantube/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
